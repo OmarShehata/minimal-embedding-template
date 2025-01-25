@@ -68,6 +68,8 @@ Exactly the same as the example above, but is hooked up to the OpenAI compatible
 3. From the Developer tab, load the model and start the local server.
 4. Run `pnpm lmstudio-embedding` (or `npm run lmstudio-embedding`).
 
+You can change which embedding model the script uses by editing the `embed()` function in `lib/embeddings-lmstudio.js`.
+
 ### Clustering
 
 `example-clustering/index.js`
