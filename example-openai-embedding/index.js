@@ -1,7 +1,7 @@
-import Embeddings from '../lib/embeddings.js'
+import Embeddings from '../lib/embeddings-openai.js'
 
 // init, `id` is the name of the folder to store the vector DB in locally
-const embeddings = new Embeddings({ id: 'simple-embeddings' })
+const embeddings = new Embeddings({ id: 'openai-embeddings' })
 await embeddings.init()
 
 // convert text to semantic vectors and store in DB

@@ -51,7 +51,11 @@ console.log(results.map(item => [item.item.metadata.text, item.score]))
 pnpm openai-embedding
 ```
 
-Exactly the same as the example above, but is hooked up to the OpenAI API. Requires setting the env variable `OPEN_API_KEY`.
+Exactly the same as the example above, but is hooked up to the OpenAI API. Requires setting the env variable `OPEN_API_KEY`. You can do by creating a `.env` file:
+
+```
+OPEN_API_KEY=<your_key>
+```
 
 ### LM Studio embedding
 
